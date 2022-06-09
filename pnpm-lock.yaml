@@ -1,0 +1,28 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      typescript: ^4.7.3
+    dependencies:
+      typescript: 4.7.3
+
+  packages/core:
+    specifiers:
+      cac: ^6.7.12
+    dependencies:
+      cac: 6.7.12
+
+packages:
+
+  /cac/6.7.12:
+    resolution: {integrity: sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /typescript/4.7.3:
+    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
