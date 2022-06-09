@@ -2,13 +2,28 @@
   "name": "@nzha/ntsc",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "bin": {
+    "ntsc": "esm/bin.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf esm && tsc"
   },
   "author": "maoxiaoke",
   "license": "ISC",
   "dependencies": {
-    "cac": "^6.7.12"
+    "@swc/core": "^1.2.197",
+    "cac": "^6.7.12",
+    "consola": "^2.15.3",
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^10.1.0",
+    "globby": "^13.1.1",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "rollup": "^2.75.6"
   }
 }

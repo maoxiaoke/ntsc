@@ -9,6 +9,7 @@
   "author": "maoxiaoke",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^17.0.41",
     "typescript": "^4.7.3"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf esm && node ./node_modules/@nzha/ntsc/esm/cli.js"
+  },
+  "dependencies": {
+    "@nzha/ntsc": "workspace: *"
+  },
+  "keywords": [],
+  "author": "maoxiaoke",
+  "license": "ISC"
+}
