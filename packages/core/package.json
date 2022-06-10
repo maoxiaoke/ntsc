@@ -1,6 +1,6 @@
 {
   "name": "@nzha/ntsc",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A tiny TypeScript transformer for Node.js modules only",
   "keywords": [
     "nazha",
@@ -10,7 +10,7 @@
   "exports": "./esm/index.js",
   "types": "./esm/index.d.ts",
   "bin": {
-    "ntsc": "esm/bin.js"
+    "ntsc": "./esm/cli.js"
   },
   "files": [
     "esm"

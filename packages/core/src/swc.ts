@@ -41,6 +41,9 @@ const swcLoader = (_: string, id: string) => {
   return {
     code,
     map,
+    meta: {
+      ext: '.js'
+    }
   };
 }
 

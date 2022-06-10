@@ -9,7 +9,8 @@
     "build": "rm -rf esm && ntsc"
   },
   "dependencies": {
-    "@nzha/ntsc": "*"
+    "@nzha/ntsc": "*",
+    "typescript": "^4.7.3"
   },
   "author": "maoxiaoke",
   "license": "ISC"

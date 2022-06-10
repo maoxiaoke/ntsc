@@ -27,7 +27,6 @@ const cli = cac('ntsc');
     })
     .option('--watch', 'Watch mode')
     .action(async (files, flags) => {
-      consola.log('fsfsfds', files, flags)
       delete flags['--'];
 
       build({
