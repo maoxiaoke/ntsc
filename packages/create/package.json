@@ -1,0 +1,23 @@
+{
+  "name": "@nzha/create-ntsc",
+  "version": "0.1.0",
+  "description": "",
+  "exports": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "type": "module",
+  "files": [
+    "templates",
+    "esm"
+  ],
+  "scripts": {
+    "build": "rm -rf esm && pnpm tsc"
+  },
+  "author": "maoxiaoke",
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.7.12",
+    "consola": "^2.15.3",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4"
+  }
+}

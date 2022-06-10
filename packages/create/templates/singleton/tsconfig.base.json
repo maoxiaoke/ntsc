@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "src",
+    "outDir": "esm",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src"]
+}

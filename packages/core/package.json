@@ -8,6 +8,9 @@
   "bin": {
     "ntsc": "esm/bin.js"
   },
+  "files": [
+    "esm"
+  ],
   "scripts": {
     "build": "rm -rf esm && tsc"
   },
