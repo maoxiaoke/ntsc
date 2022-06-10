@@ -1,7 +1,11 @@
 {
   "name": "@nzha/create-ntsc",
   "version": "0.1.0",
-  "description": "",
+  "description": "npm init ntsc",
+  "keywords": [
+    "nazha",
+    "ntsc"
+  ],
   "exports": "./esm/index.js",
   "types": "./esm/index.d.ts",
   "type": "module",
@@ -10,7 +14,8 @@
     "esm"
   ],
   "scripts": {
-    "build": "rm -rf esm && pnpm tsc"
+    "build": "rm -rf esm && pnpm tsc",
+    "prepublishOnly": "pnpm run build"
   },
   "author": "maoxiaoke",
   "license": "ISC",

@@ -1,4 +1,4 @@
-A tiny TypeScript transformer for Node.js modules, inspired by @ice/pkg.
+A tiny TypeScript transformer for Node.js modules only, inspired by @ice/pkg.
 
 ## How to use
 

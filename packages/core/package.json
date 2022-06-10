@@ -1,7 +1,11 @@
 {
   "name": "@nzha/ntsc",
   "version": "0.1.0",
-  "description": "",
+  "description": "A tiny TypeScript transformer for Node.js modules only",
+  "keywords": [
+    "nazha",
+    "ntsc"
+  ],
   "type": "module",
   "exports": "./esm/index.js",
   "types": "./esm/index.d.ts",
@@ -12,7 +16,8 @@
     "esm"
   ],
   "scripts": {
-    "build": "rm -rf esm && tsc"
+    "build": "rm -rf esm && tsc",
+    "prepublishOnly": "pnpm run build"
   },
   "author": "maoxiaoke",
   "license": "ISC",
